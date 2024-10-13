@@ -1,0 +1,149 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/* LE DEBUT */
+body{
+	font-family: Century Gothic ,arial, helvetica;
+	font-size: 14px;
+	color: #fff;
+	background-color: #000000;
+	width: 1024px;
+	margin: 0 auto;
+}
+#page{
+	background-color: #000000;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-size: 15pt;
+	font-weight: bold;
+	color: #fff;
+	text-decoration-line: #fff;
+	margin-bottom: 15px;
+}
+
+/* HEADER DES DER */
+header{
+	clear: both;
+	height: 51px;
+	width: 1024px;
+	margin: 8px auto;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top: 8px;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #fff;
+}
+header h1 small{
+	font-size: 9px;
+}
+header h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #fff;
+}
+
+
+article h1{
+	font-size: 30pt;
+	font-weight: bold;
+	color: #fff;
+}
+#demo{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#compo{
+	width: 500px;
+	float: left;
+	text-align: center;
+}
+
+#anim{
+	width: 500px;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#folio{
+	margin: 25px 55px;
+}
+article hr{
+	width: 800px;
+	margin: 50px 70px;
+	color: #f09d2d;
+	background-color: #f09d2d;
+	border-color: #f09d2d;
+}
+article h2{
+	color: #f09d2d;
+	font-weight: bold;
+}
+article a{
+	color: #f09d2d;
+	text-decoration: none;
+}
+footer{
+	margin-top: 50px;
+	float: right;
+	font-weight: 14pt;
+	color: #fff;
+	text-align: right;
+
+}
